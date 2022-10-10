@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../Components/Home/Header'
 import SearchBar from '../../Components/Home/SearchBar';
+import BlogList from '../../Components/Home/BlogList';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         {/* // value={searchKey} */}
 
       {/* Blog List & Empty List */}
+      <BlogList blogs={} />
     </div>
   );
 };
