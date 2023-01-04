@@ -7,7 +7,7 @@ import Home from './Pages/Home';
 const App = () => {
   return (
     <div className='container'>
-      <h1>News Blog</h1>
+      {/* <h3>React News blog</h3> */}
       <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/blog/:id' element={<Blog />} />

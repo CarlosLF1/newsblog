@@ -5,6 +5,7 @@ import Chip from "../../Components/common/Chip/index";
 import EmptyList from "../../Components/common/EmptyList/index";
 import {Link} from "react-router-dom";
 import "./styles.css";
+import { RxHome } from "react-icons/rx";
 
 const Blog = () => {
   const { id } = useParams();
@@ -20,8 +21,8 @@ const Blog = () => {
 
   return (
     <>
-      <Link to="/">
-        <span>&#8592</span> Go Back to Homepage
+      <Link className='blog-goBack' to="/">
+        <span><RxHome className='home-icon' /></span> Go Back to Homepage
       </Link>
       {blog ? (
         <div className="blog-wrap">

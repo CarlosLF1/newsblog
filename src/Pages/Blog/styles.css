@@ -23,7 +23,8 @@
 }
 
 .blog-wrap img {
-  width: 100%
+  width: 100%;
+  border-radius: 10px;
 }
 
 .blog-subCategory {
@@ -38,4 +39,11 @@
 .blog-desc {
   padding: 1rem;
   margin-top: 1.5rem;
+}
+
+.home-icon {
+  font-size: 30px ;
+  color: black;
+  display: flex;
+  align-items: center;
 }

@@ -1,6 +1,7 @@
 .blogItem-wrap {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
 }
 
 .blogItem-cover {
@@ -9,11 +10,13 @@
   object-fit: cover;
   border-radius: 20px;
   margin-bottom: 0.5rem;
+  text-decoration: none;
 }
 
 .blogItem-wrap h3 {
   margin: 0.5rem 0 1rem 0;
   flex: 1;
+  text-decoration: none;
 }
 
 .blogItem-desc{
@@ -61,4 +64,9 @@
   font-size: 0.6rem;
   color: #a9a9a9;
   font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;;
 }
