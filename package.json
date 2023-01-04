@@ -16,7 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-localhost": "PUBLIC_URL=/ react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -38,5 +39,8 @@
       "last 1 safari version"
     ]
   },
-    "homepage": "http://carloslf1.github.io/newsblog/"
+  "homepage": "http://carloslf1.github.io/newsblog/",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
