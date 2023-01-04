@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://carloslf1.github.io/newsblog/",
+  // "homepage": "http://carloslf1.github.io/newsblog/",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
