@@ -106,6 +106,6 @@ export const blogList = [
     authorName: 'John Doe',
     authorAvatar: '/assets/images/avatar.svg',
     createdAt: 'Aug 03, 2022',
-    cover: '/assets/images/next.jpg',
+    cover: '/assets/images/Next.jpg',
   },
 ];
