@@ -7,8 +7,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -23,14 +21,3 @@ input {
   margin: 0 auto;
   padding: 1rem 0;
 }
-
-::-webkit-scrollbar {
-  display: none;
-}
-
- .container {
-   -ms-overflow-style: none;
-   /* IE and Edge */
-   scrollbar-width: none;
-   /* Firefox */
- }
