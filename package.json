@@ -39,8 +39,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+=======
+>>>>>>> parent of 130d87af (Update to package.json for build)
   }
 }
